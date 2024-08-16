@@ -28,7 +28,8 @@ git submodule update
   cp .env.example .env
   ```
 - Open the `.env` file and fill in the necessary values
-
+- For `JWT_SECRET` go to this website: https://asecuritysite.com/encryption/plain
+- Key size should be 256 bit and copy the Hex Key.
 3. **Build and start the Docker containers**
 ```
 docker compose up --build
